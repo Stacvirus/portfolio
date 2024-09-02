@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stacvirus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="bio">
+      <!-- nav section -->
+      <nav>
+        <div class="logo">StV</div>
+        <ul class="nav_links">
+          <li class="links"><a href="#bio">Bio</a></li>
+          <li class="links"><a href="#skill">Skills</a></li>
+          <li class="links"><a href="#exp">Experience</a></li>
+          <li class="links"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- header section -->
+      <header>
+        <div class="headerBrand">
+          <h1 class="brandHead">
+            Hi, I'm <span>Stac Virus</span>
+            a software Developer base in Cameroon
+          </h1>
+          <p class="brandBody">
+            I help business and companies reach their goals by designing
+            user-centric digital platfroms with interfaces.
+          </p>
+          <button>
+            <a
+              href="assets/files/SATCHA-TAKAM-CV.pdf"
+              download="SATCHA-TAKAM-CV"
+            >
+              Resume
+            </a>
+            <img src="assets/icons/download_icon.svg" alt="download icon" />
+          </button>
+        </div>
+        <div class="headerImage">
+          <img src="assets/images/profileImg.png" alt="my profile image" />
+        </div>
+      </header>
+
+      <!-- skills section -->
+      <section class="skill" id="skill">
+        <h2>Skills</h2>
+        <div class="skillCarts">
+          <!-- React cart -->
+          <div class="cart">
+            <div class="cartNav">
+              <h3 class="react">React</h3>
+              <div class="cartIcons">
+                <img src="assets/icons/html_icon.svg" alt="html icon" />
+                <img src="assets/icons/css_icon.svg" alt="css icon" />
+                <img src="assets/icons/js_icon.svg" alt="js icon" />
+              </div>
+            </div>
+            <div class="cartHead">
+              <img src="assets/logos/react_js_logo.svg" alt="react logo" />
+            </div>
+            <p>
+              I use React to create dynamic, scalable web applications with a
+              focus on user experience. Mastering the React ecosystem including
+              Redux, React Router and Hooks, I build high quality modern user
+              interfaces.
+            </p>
+          </div>
+
+          <!-- Nodejs cartv -->
+          <div class="cart">
+            <div class="cartNav">
+              <h3 class="node">Node</h3>
+              <div class="cartIcons">
+                <img src="assets/icons/js_icon.svg" alt="js icon" />
+              </div>
+            </div>
+            <div class="cartHead">
+              <img src="assets/logos/nodejs_logo.svg" alt="nodejs logo" />
+            </div>
+
+            <p>
+              I use Nodejs and Express to develop robust, scalable backend
+              solutions. Leveraging these technologies, I create efficient APIs,
+              manage server-side logic and ensure smooth integration with
+              front-end apps.
+            </p>
+          </div>
+
+          <!-- spring boot cart -->
+          <div class="cart">
+            <div class="cartNav">
+              <h3 class="spring">Spring Boot</h3>
+              <div class="cartIcons">
+                <img src="assets/icons/java_icon.svg" alt="java icon" />
+              </div>
+            </div>
+            <div class="cartHead">
+              <img
+                src="assets/logos/spring_boot_icon.svg"
+                alt="spring boot logo"
+              />
+            </div>
+
+            <p>
+              I also use the java Spring Boot framework to build powerful and
+              scalable backend systems. My approach focuses on writing clean,
+              maintainable code while optimizing performance and security.
+            </p>
+          </div>
+        </div>
+        <div class="skillFooter">
+          <img src="assets/icons/logo_mongodb.svg" alt="mongodb icon" />
+          <img src="assets/icons/git_logo.svg" alt="git_logo" />
+          <img src="assets/icons/docker_logo.svg" alt="docker icon" />
+          <img src="assets/icons/logo_mysql_icon.svg" alt="logo_mysql_icon" />
+          <img src="assets/icons/postgres.svg" alt="postgresql icon" />
+        </div>
+      </section>
+
+      <!-- experience section -->
+      <section class="experience" id="exp">
+        <h2>Experience</h2>
+        <div class="expsItems">
+          <!-- first experience -->
+          <div class="item">
+            <div class="itemHead">
+              <h2>PKFokam Research Center</h2>
+              <h2>3 months</h2>
+            </div>
+            <div class="itemFooter">
+              <p>Backend Developer</p>
+              <p>Cameroon-Yaoundé</p>
+            </div>
+          </div>
+
+          <!-- second experience -->
+          <div class="item">
+            <div class="itemHead">
+              <h2>ABT-Technologies</h2>
+              <h2>3 months</h2>
+            </div>
+            <div class="itemFooter">
+              <p>Electrician</p>
+              <p>Cameroon-Douala</p>
+            </div>
+          </div>
+
+          <!-- third experience -->
+          <div class="item">
+            <div class="itemHead">
+              <h2>Glotech Engineering</h2>
+              <h2>3 months</h2>
+            </div>
+            <div class="itemFooter">
+              <p>
+                Soft & Hard ware <br />
+                Maintenance worker
+              </p>
+              <p>Cameroon-Douala</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contacts section -->
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+          <div class="userCredentials">
+            <div class="contactInput">
+              <input
+                type="email"
+                class="email"
+                name="Email"
+                placeholder=""
+                required
+              />
+              <p>Email</p>
+            </div>
+            <div class="contactInput">
+              <input
+                type="password"
+                class="password"
+                name="Password"
+                placeholder=""
+                required
+              />
+              <p>Password</p>
+            </div>
+          </div>
+          <div class="contactMessage">
+            <textarea class="message" placeholder=""></textarea>
+            <p>Message</p>
+          </div>
+          <button type="submit">
+            Send <img src="assets/icons/send_icon.svg" alt="send image" />
+          </button>
+        </form>
+      </section>
+
+      <footer>
+        <p class="copyrights">Mabe by <span>Stacvirus</span>-Copyrights 2024</p>
+        <div class="adresses">
+          <div class="adresseItem">
+            <img src="assets/icons/email_icon.svg" alt="email icon" />
+            <p>parfaitandre5@gmail.com</p>
+          </div>
+          <div class="adresseItem">
+            <img src="assets/icons/call_icon.svg" alt="phone icon" />
+            <p>+237 680528561</p>
+          </div>
+        </div>
+        <div class="socials">
+          <img src="assets/icons/facebook_logo.svg" alt="facebook icon" />
+          <img src="assets/icons/whatsapp_icon.svg" alt="whatsapp icon" />
+          <img
+            src="assets/icons/317750_linkedin_icon.svg"
+            alt="linkedIn icon"
+          />
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
